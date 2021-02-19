@@ -1243,7 +1243,7 @@ MALAYSIA
 <div id="strel8" class="vline" />
 <div id="strel9" class="vline" />
 </body>
-<footer><center>
+<footer><center><font color="red">
 <?php
  
     if (getenv('HTTP_X_FORWARDED_FOR')) {
@@ -1254,6 +1254,6 @@ echo "Your Proxy IP address is : ".$pipaddress. "(via $ipaddress)" ;
         $ipaddress = getenv('REMOTE_ADDR');
         echo "You are : $ipaddress";
     }
-?></center>
+?></center></font>
 <footer>
 </html>
